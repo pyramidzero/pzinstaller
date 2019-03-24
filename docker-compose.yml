@@ -1,0 +1,13 @@
+version: "3"
+services:
+    pz:
+        image: "pz:dev"
+        build:
+            context: .
+            dockerfile: Dockerfile
+        hostname: pz
+        stdin_open: true
+        tty: true
+        working_dir: '/pz-dev'
+        volumes:
+            - ".:/pz-dev"
