@@ -15,7 +15,7 @@ setup(
     long_description=LONG_DESCRIPTION,
     long_description_content_type='text/markdown',
     author='PyramidZero',
-    author_email='john.doe@example.com',
+    author_email='contact@pyramidzero.com',
     url='https://github.com/pyramidzero/pzinstaller.git',
     license='MIT',
     packages=find_packages(exclude=['ez_setup', 'tests*']),
