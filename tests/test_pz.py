@@ -2,6 +2,7 @@
 from pytest import raises
 from pz.main import PzInstallerTest
 
+
 def test_pz():
     # test pz without any subcommands or arguments
     with PzInstallerTest() as app:
