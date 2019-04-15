@@ -1,7 +1,12 @@
 from subprocess import run
 
+# configuration defaults tools
+update = ['brew', 'update']
+install = ['brew', 'install', 'git']
+
 class Installer:
-    """Simple Installer test"""
-    def update(self):
-        """Update system with brew"""
-        run(['brew', 'update'])
+    def func_update(self):
+        run(update)
+
+    def func_install(self):
+        run(install)
